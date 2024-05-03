@@ -1,1 +1,56 @@
-[]
+[
+    {
+        "patchName": "Custom package name",
+        "options": [
+            {
+                "key": "PackageNameYouTube",
+                "value": "app.rvx.android.youtube"
+            }
+        ]
+    },
+    {
+        "patchName": "Custom branding icon YouTube",
+        "options": [
+            {
+                "key": "AppIcon",
+                "value": "Revancify Blue"
+            }
+        ]
+    },
+    {
+        "patchName": "Custom branding icon YouTube Music",
+        "options": [
+            {
+                "key": "AppIcon",
+                "value": "Revancify Blue"
+            }
+        ]
+    },
+    {
+        "patchName": "Custom branding name Reddit",
+        "options": [
+            {
+                "key": "AppName",
+                "value": "Reddit"
+            }
+        ]
+    },
+    {
+        "patchName": "Custom branding name YouTube",
+        "options": [
+            {
+                "key": "AppName",
+                "value": "YouTube"
+            }
+        ]
+    },
+    {
+        "patchName": "Custom branding name YouTube Music",
+        "options": [
+            {
+                "key": "AppName",
+                "value": "YouTube Music"
+            }
+        ]
+    }
+]
