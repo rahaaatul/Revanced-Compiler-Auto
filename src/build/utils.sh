@@ -185,7 +185,7 @@ patch() {
 	if [ -f "./download/$1.apk" ]; then
 		local p b m ks a pu
 		if [ "$3" = inotia ]; then
-			p="patch " b="--patch-bundle" m="--merge" a="" ks="_ks"
+			p="patch " b="--patch-bundle" m="--merge" a="" ks="_ks" pu="--purge=true"
 			echo "Patching with Revanced-cli inotia"
 		else
 			if [[ $(ls revanced-cli-*.jar) =~ revanced-cli-([0-9]+) ]]; then
@@ -197,7 +197,7 @@ patch() {
 					p="patch " b="--patch-bundle" m="--merge" a="" ks="_ks" pu="--purge=true"
 					echo "Patching with Revanced-cli version 3"
 				elif [ $num -eq 2 ]; then
-					p="" b="-b" m="-m" a="-a " ks="_ks" pu="--clean"
+					p="" b="--bundle" m="--merge" a="--apk " ks="_ks" pu="--clean"
 					echo "Patching with Revanced-cli version 2"
 				fi
 			fi
@@ -211,7 +211,7 @@ patch() {
 		--out=./release/$1-$2.apk \
 		--keystore=./src/$ks.keystore \
 		$pu \
-		./download/$a$1.apk
+		$a./download/$1.apk
   		unset version
 		unset excludePatches
 		unset includePatches
