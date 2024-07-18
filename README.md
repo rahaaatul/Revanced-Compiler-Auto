@@ -29,8 +29,6 @@ Download
 
 > [!IMPORTANT] 
 > Beta versions mean using dev patches, not using beta apk files. Beta version have the same package name as Stable version, so installing them will overwrite Stable version.
->
->  If you facing a playback issue (Video stop loading after start 10-30s). Please read the [Wiki](../main/docs/Frequently%20Asked%20Questions.md#q-how-do-i-use-this-repository-for-patching-my-own-app).
 
 ---
 
@@ -72,30 +70,6 @@ Download
 | [x86](../../releases/download/all/youtube-stable-x86-anddea.apk)                 | [x86](../../releases/download/all/youtube-beta-x86-anddea.apk)                 |
 | [x86_64](../../releases/download/all/youtube-stable-x86_64-anddea.apk)           | [x86_64](../../releases/download/all/youtube-beta-x86_64-anddea.apk)           |
 
-### [Revanced Extended forked by rufusin:](https://github.com/rufusin/revanced-patches)
-
-[All Architectures](../../releases/download/all/youtube-rufusin.apk)
-
-[Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-rufusin.apk)
-
-[Armeabi-v7a](../../releases/download/all/youtube-armeabi-v7a-rufusin.apk)
-
-[x86](../../releases/download/all/youtube-x86-rufusin.apk)
-
-[x86_64](../../releases/download/all/youtube-x86_64-rufusin.apk)
-
-### [ReX: (forked from Revanced Extended)](https://github.com/YT-Advanced/ReX-patches)
-
-[All Architectures](../../releases/download/all/youtube-ReX.apk)
-
-[Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-ReX.apk)
-
-[Armeabi-v7a](../../releases/download/all/youtube-armeabi-v7a-ReX.apk)
-
-[x86](../../releases/download/all/youtube-x86-ReX.apk)
-
-[x86_64](../../releases/download/all/youtube-x86_64-ReX.apk)
-
 ### [Revanced Extended For Android 6 & 7:](https://github.com/kitadai31/revanced-patches-android6-7/tree/revanced-extended)
 
 [All Architectures](../../releases/download/all/youtube-revanced-extended-android-6-7.apk)
@@ -120,6 +94,35 @@ Download
 [x86](../../releases/download/all/youtube-x86-revanced-extended-android-5.apk)
 
 [x86_64](../../releases/download/all/youtube-x86_64-revanced-extended-android-5.apk)
+
+<details>
+  <summary>Discontinued project</summary>
+
+### [Revanced Extended forked by rufusin:](https://github.com/rufusin/revanced-patches)
+
+[All Architectures](../../releases/download/all/youtube-rufusin.apk)
+
+[Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-rufusin.apk)
+
+[Armeabi-v7a](../../releases/download/all/youtube-armeabi-v7a-rufusin.apk)
+
+[x86](../../releases/download/all/youtube-x86-rufusin.apk)
+
+[x86_64](../../releases/download/all/youtube-x86_64-rufusin.apk)
+
+### [ReX: (forked from Revanced Extended)](https://github.com/YT-Advanced/ReX-patches)
+
+[All Architectures](../../releases/download/all/youtube-ReX.apk)
+
+[Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-ReX.apk)
+
+[Armeabi-v7a](../../releases/download/all/youtube-armeabi-v7a-ReX.apk)
+
+[x86](../../releases/download/all/youtube-x86-ReX.apk)
+
+[x86_64](../../releases/download/all/youtube-x86_64-ReX.apk)
+
+</details>
 
 ---
 
@@ -146,11 +149,16 @@ Download
 | [Arm64-v8a](../../releases/download/all/youtube-music-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-anddea.apk)     |
 | [Armeabi-v7a](../../releases/download/all/youtube-music-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-anddea.apk) |
 
+<details>
+  <summary>Discontinued project</summary>
+
 ### ReX:
 
 [Arm64-v8a](../../releases/download/all/youtube-music-arm64-v8a-ReX.apk)
 
 [Armeabi-v7a](../../releases/download/all/youtube-music-armeabi-v7a-ReX.apk)
+
+</details>
 
 ---
 
@@ -166,17 +174,17 @@ Download
 
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
 
+### [Piko: (More Features)](https://github.com/crimera/piko)
+
+| [Stable version](https://github.com/crimera/piko/releases/latest)        | [Beta version](https://github.com/crimera/piko/releases/)              |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- | 
+| [All Architectures](../../releases/download/all/twitter-stable-piko.apk) | [All Architectures](../../releases/download/all/twitter-beta-piko.apk) |
+
 ### Revanced:
 
 | Stable version                                                        | Beta version                                                               |
 | --------------------------------------------------------------------- | -------------------------------------------------------------------------- | 
 | [All Architectures](../../releases/download/all/twitter-revanced.apk) | [All Architectures](../../releases/download/all/twitter-beta-revanced.apk) |
-
-### [Piko:](https://github.com/crimera/piko)
-
-| [Stable version](https://github.com/crimera/piko/releases/latest)        | [Beta version](https://github.com/crimera/piko/releases/)              |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/twitter-stable-piko.apk) | [All Architectures](../../releases/download/all/twitter-beta-piko.apk) |
 
 ---
 
@@ -222,17 +230,19 @@ Download
 
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
-### Revanced:
+### [Revanced Extended: (Version 2024.18.0+)](https://github.com/inotia00/revanced-patches-arsclib)
 
+[All Architectures](../../releases/download/all/reddit-revanced-extended.apk)
+
+### Revanced:
+<details>
+  <summary>Old version maybe bugs</summary>
+  
 | Stable version                                                       | Beta version                                                              |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | [All Architectures](../../releases/download/all/reddit-revanced.apk) | [All Architectures](../../releases/download/all/reddit-beta-revanced.apk) |
 
-### Revanced Extended:
-
-| [Stable version](https://github.com/inotia00/revanced-patches/releases/latest) | [Beta version](https://github.com/inotia00/revanced-patches/releases)              |
-| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| [All Architectures](../../releases/download/all/reddit-revanced-extended.apk)  | [All Architectures](../../releases/download/all/reddit-beta-revanced-extended.apk) |
+</details>
 
 ---
 
@@ -242,7 +252,7 @@ Download
 
 | Stable version                                                          | Beta version                                                                 |
 | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/lightroom-revanced.apk) | [All Architectures](../../releases/download/all/lightroom-beta-revanced.apk) |
+| [Arm64-v8a](../../releases/download/all/lightroom-revanced.apk)         | [Arm64-v8a](../../releases/download/all/lightroom-beta-revanced.apk)         |
 
 ---
 
@@ -256,6 +266,16 @@ Download
 
 ---
 
+### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
+
+### Revanced:
+
+| Stable version                                            | Beta version                                                   |
+| --------------------------------------------------------- | -------------------------------------------------------------- | 
+| [Arm64-v8a](../../releases/download/all/rar-revanced.apk) | [Arm64-v8a](../../releases/download/all/rar-beta-revanced.apk) |
+
+---
+
 ### [Pixiv:](https://play.google.com/store/apps/details?id=jp.pxv.android)
 
 ### Revanced:
@@ -266,56 +286,142 @@ Download
 
 ---
 
-### [Windy:](https://play.google.com/store/apps/details?id=co.windyapp.android)
+### [Bilbili: (Chinese only)](https://play.google.com/store/apps/details?id=com.bilibili.app.in)
 
-### Revanced:
+### [BiliRoamingX:](https://github.com/BiliRoamingX/BiliRoamingX)
 
-[All Architectures](../../releases/download/all/windy-revanced.apk)
+[All Architectures](../../releases/download/all/bilibili-BiliRoamingX.apk )
 
 ---
 
 ### [Nova Launcher:](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
 
-### Revanced:
+### [Dropped Patches by indrastorms:](https://github.com/indrastorms/Dropped-Patches)
 
-[All Architectures](../../releases/download/all/nova-launcher-revanced.apk)
+[All Architectures](../../releases/download/all/nova-launcher-indrastorms.apk)
 
 ---
 
 ### [Tasker:](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 
-### Revanced:
+### Dropped Patches by indrastorms:
 
-[All Architectures](../../releases/download/all/tasker-revanced.apk)
+[All Architectures](../../releases/download/all/tasker-indrastorms.apk)
 
 ---
 
-# ⚠️ License:
+### ⚠️ Library, resources using in this repository:
+
+<details>
+  <summary>Revanced</summary>
+
+[Patches](https://github.com/revanced/revanced-patches) - [GPL-3.0](https://github.com/revanced/revanced-patches/blob/main/LICENSE)
+
+[Integrations](https://github.com/revanced/revanced-integrations) - [GPL-3.0](https://github.com/revanced/revanced-integrations/blob/main/LICENSE)
+
+[CLI](https://github.com/revanced/revanced-cli) - [GPL-3.0](https://github.com/revanced/revanced-cli/blob/main/LICENSE)
+
+[GmsCore](https://github.com/ReVanced/GmsCore) - [GPL-3.0](https://github.com/revanced/revanced-cli/blob/main/LICENSE)
+
+</details>
+
+<details>
+  <summary>inotia00</summary>
+
+[Patches](https://github.com/inotia00/revanced-patches) - [GPL-3.0](https://github.com/inotia00/revanced-patches/blob/revanced-extended/LICENSE)
+
+[Integrations](https://github.com/inotia00/revanced-integrations) - [GPL-3.0](https://github.com/inotia00/revanced-integrations/blob/main/LICENSE)
+
+[CLI](https://github.com/inotia00/revanced-cli) - [GPL-3.0](https://github.com/inotia00/revanced-cli/blob/main/LICENSE)
+
+[Patches Arsclib](https://github.com/inotia00/revanced-patches-arsclib) - [GPL-3.0](https://github.com/inotia00/revanced-patches-arsclib/blob/arsclib-old/LICENSE)
+
+[CLI Arsclib](https://github.com/inotia00/revanced-cli-arsclib) - [GPL-3.0](https://github.com/inotia00/revanced-cli-arsclib/blob/arsclib-old/LICENSE)
+
+</details>
+
+<details>
+  <summary>anddea</summary>
+
+[Patches](https://github.com/anddea/revanced-patches) - [GPL-3.0](https://github.com/anddea/revanced-patches/blob/main/LICENSE)
+
+[Integrations](https://github.com/anddea/revanced-integrations) - [GPL-3.0](https://github.com/anddea/revanced-integrations/blob/main/LICENSE)
+
+</details>
+
+</details>
+
+<details>
+  <summary>crimera</summary>
+
+[Patches](https://github.com/crimera/piko) - [GPL-3.0](https://github.com/crimera/piko/blob/main/LICENSE)
+
+[Integrations](https://github.com/crimera/revanced-integrations) - [GPL-3.0](https://github.com/crimera/revanced-integrations/blob/main/LICENSE)
+
+</details>
+
+<details>
+  <summary>kitadai31</summary>
+
+[Patches](https://github.com/kitadai31/revanced-patches-android6-7) - [GPL-3.0](https://github.com/kitadai31/revanced-patches-android6-7/blob/revanced-extended/LICENSE)
+
+[Integrations](https://github.com/kitadai31/revanced-integrations) - [GPL-3.0](https://github.com/kitadai31/revanced-integrations/blob/revanced-extended/LICENSE)
+
+</details>
+
+<details>
+  <summary>d4n3436</summary>
+
+[Patches](https://github.com/d4n3436/revanced-patches-android5) - [GPL-3.0](https://github.com/d4n3436/revanced-patches-android5/blob/revanced-extended/LICENSE)
+
+[Integrations](https://github.com/d4n3436/revanced-integrations) - [GPL-3.0](https://github.com/d4n3436/revanced-integrations/blob/revanced-extended/LICENSE)
+
+</details>
+
+</details>
+
+<details>
+  <summary>YT-Advanced</summary>
+
+[Patches](https://github.com/YT-Advanced/ReX-patches) - [GPL-3.0](https://github.com/YT-Advanced/ReX-patches/blob/master/LICENSE)
+
+[Integrations](https://github.com/YT-Advanced/ReX-integrations) - [GPL-3.0](https://github.com/YT-Advanced/ReX-integrations/blob/main/LICENSE)
+
+</details>
+
+<details>
+  <summary>rufusin</summary>
+
+[Patches](https://github.com/rufusin/revanced-patches) - [GPL-3.0](https://github.com/rufusin/revanced-patches/blob/main/LICENSE)
+
+[Integrations](https://github.com/rufusin/revanced-integrations) - [GPL-3.0](https://github.com/rufusin/revanced-integrations/blob/main/LICENSE)
+
+</details>
+
+<details>
+  <summary>BiliRoamingX</summary>
+
+[Patches, Integrations](https://github.com/BiliRoamingX/BiliRoamingX) - [GPL-3.0](https://github.com/BiliRoamingX/BiliRoamingX/blob/main/LICENSE)
+
+</details>
+
+</details>
+
+<details>
+  <summary>indrastorms</summary>
+
+[Patches](https://github.com/indrastorms/Dropped-Patches) - [GPL-3.0](https://github.com/indrastorms/Dropped-Patches/blob/main/LICENSE)
+
+</details>
+
+[Markdown Badges](https://github.com/Ileriayo/markdown-badges) - [MIT](https://github.com/Ileriayo/markdown-badges/blob/master/LICENSE)
+
+---
+
+### ⚠️ Inspired by:
 
 [@luxysiv](https://github.com/luxysiv/yt-revanced-nonroot) - [GPL-3.0](https://github.com/luxysiv/revanced-nonroot/blob/main/LICENSE)
 
 [revanced-build-template](https://github.com/n0k0m3/revanced-build-template) - [GPL-3.0](https://github.com/n0k0m3/revanced-build-template/blob/main/LICENSE)
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module) - [GPL-3.0](https://github.com/j-hc/revanced-magisk-module/blob/main/LICENSE)
-
-[Revanced Patches](https://github.com/revanced/revanced-patches) - [GPL-3.0](https://github.com/revanced/revanced-patches/blob/main/LICENSE)
-
-[Revanced Extended Patches](https://github.com/inotia00/revanced-patches/tree/revanced-extended) - [GPL-3.0](https://github.com/inotia00/revanced-patches/blob/revanced-extended/LICENSE)
-
-[Revanced Extended for Android 6 & 7 Patches](https://github.com/kitadai31/revanced-patches-android6-7/tree/revanced-extended) - [GPL-3.0](https://github.com/kitadai31/revanced-patches-android6-7/blob/revanced-extended/LICENSE)
-
-[Revanced Extended For Android 5 Patches](https://github.com/d4n3436/revanced-patches-android5) - [GPL-3.0](https://github.com/d4n3436/revanced-patches-android5/blob/revanced-extended/LICENSE)
-
-[Markdown Badges](https://github.com/Ileriayo/markdown-badges) - [MIT](https://github.com/Ileriayo/markdown-badges/blob/master/LICENSE)
-
-[Revanced CLI](https://github.com/revanced/revanced-cli) - [GPL-3.0](https://github.com/revanced/revanced-cli/blob/main/LICENSE)
-
-[Revanced Integrations](https://github.com/revanced/revanced-integrations) - [GPL-3.0](https://github.com/revanced/revanced-integrations/blob/main/LICENSE)
-
-[Revanced Extended CLI](https://github.com/inotia00/revanced-cli) - [GPL-3.0](https://github.com/inotia00/revanced-cli/blob/main/LICENSE)
-
-[Revanced Extended Integrations](https://github.com/inotia00/revanced-integrations) - [GPL-3.0](https://github.com/inotia00/revanced-integrations/blob/main/LICENSE)
-
-[Revanced Extended for Android 6 & 7 Integrations](https://github.com/kitadai31/revanced-integrations) - [GPL-3.0](https://github.com/kitadai31/revanced-integrations/blob/revanced-extended/LICENSE)
-
-[Revanced Extended for Android 5 Integrations](https://github.com/d4n3436/revanced-integrations) - [GPL-3.0](https://github.com/d4n3436/revanced-integrations/blob/revanced-extended/LICENSE)
