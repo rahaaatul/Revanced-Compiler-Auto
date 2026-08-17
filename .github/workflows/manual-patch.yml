@@ -51,6 +51,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6.0.2
+      - name: Cache APK downloads
+        id: cache-apk
+        uses: actions/cache@v4
+        with:
+          path: ./download
+          key: apk-${{ runner.os }}-morphe-${{ hashFiles('src/build/morphe.sh') }}-${{ github.sha }}
+          restore-keys: |
+            apk-${{ runner.os }}-morphe-${{ hashFiles('src/build/morphe.sh') }}-
+            apk-${{ runner.os }}-morphe-
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -75,6 +84,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6.0.2
+      - name: Cache APK downloads
+        id: cache-apk
+        uses: actions/cache@v4
+        with:
+          path: ./download
+          key: apk-${{ runner.os }}-morphe-beta-${{ hashFiles('src/build/morphe-beta.sh') }}-${{ github.sha }}
+          restore-keys: |
+            apk-${{ runner.os }}-morphe-beta-${{ hashFiles('src/build/morphe-beta.sh') }}-
+            apk-${{ runner.os }}-morphe-beta-
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
