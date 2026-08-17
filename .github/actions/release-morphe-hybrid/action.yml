@@ -1,0 +1,54 @@
+name: Release Morphe Hybrid
+runs:
+  using: "composite"
+  steps:
+    - name: Read build versions
+      shell: bash
+      run: |
+        if [ -f ./build-versions.txt ]; then
+          source ./build-versions.txt
+        else
+          PATCH_VERSION="unknown"
+          YOUTUBE_STABLE="unknown"
+          YOUTUBE_BETA="unknown"
+          YOUTUBE_MUSIC_STABLE="unknown"
+          YOUTUBE_MUSIC_BETA="unknown"
+        fi
+        echo "PATCH_VERSION=$PATCH_VERSION" >> $GITHUB_ENV
+        echo "YOUTUBE_STABLE=$YOUTUBE_STABLE" >> $GITHUB_ENV
+        echo "YOUTUBE_BETA=$YOUTUBE_BETA" >> $GITHUB_ENV
+        echo "YOUTUBE_MUSIC_STABLE=$YOUTUBE_MUSIC_STABLE" >> $GITHUB_ENV
+        echo "YOUTUBE_MUSIC_BETA=$YOUTUBE_MUSIC_BETA" >> $GITHUB_ENV
+    - name: Generate release body
+      shell: bash
+      run: |
+        cat << EOF > ${{ github.workspace }}-RELEASE-BODY.md
+        ## Morphe Patches
+        **This repository is not like any other repository. It does not create new releases; it only releases new files.**
+        **Forget about scrolling whole release page find files. Just read [Readme.md](../main/README.md#microg-revanced) file and select apps you want download.**
+
+        ### Patch Information
+        | Patch Name | Version |
+        |------------|---------|
+        | Morphe Beta Patches | ${{ env.PATCH_VERSION }} |
+
+        ### App Builds
+        | App Name | Version | Type |
+        |----------|---------|------|
+        | YouTube | ${{ env.YOUTUBE_STABLE }} | Stable |
+        | YouTube | ${{ env.YOUTUBE_BETA }} | Beta |
+        | YouTube Music | ${{ env.YOUTUBE_MUSIC_STABLE }} | Stable |
+        | YouTube Music | ${{ env.YOUTUBE_MUSIC_BETA }} | Beta |
+
+        **Change log** :point_down:
+        [Morphe](https://github.com/MorpheApp/morphe-patches/releases/)
+        EOF
+    - name: Release
+      uses: ncipollo/release-action@v1.21.0
+      with:
+        artifacts: |
+          ./release/*.apk
+        name: Morphe Patches
+        tag: morphe-hybrid
+        bodyFile: ${{ github.workspace }}-RELEASE-BODY.md
+        allowUpdates: true
