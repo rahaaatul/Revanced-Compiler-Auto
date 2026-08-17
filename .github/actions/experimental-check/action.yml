@@ -26,6 +26,11 @@ runs:
           releases=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
             "https://api.github.com/repos/MorpheApp/morphe-patches/releases?per_page=100&page=$page")
 
+          if ! echo "$releases" | jq -e 'type == "array"' >/dev/null 2>&1; then
+            echo "Error fetching releases: $(echo "$releases" | jq -r '.message // "Unknown error"')"
+            break
+          fi
+
           count=$(echo "$releases" | jq 'length')
           if [ "$count" -eq 0 ] || [ "$count" = "null" ]; then
             echo "No more releases found on page $page."
@@ -68,11 +73,11 @@ runs:
           page=$((page + 1))
         done
 
-        echo "youtube_experimental_support=$youtube" >> "$GITHUB_OUTPUT"
-        echo "youtube_music_experimental_support=$youtube_music" >> "$GITHUB_OUTPUT"
-        echo "reddit_experimental_support=$reddit" >> "$GITHUB_OUTPUT"
+        echo "youtube_experimental_support=${youtube:-}" >> "$GITHUB_OUTPUT"
+        echo "youtube_music_experimental_support=${youtube_music:-}" >> "$GITHUB_OUTPUT"
+        echo "reddit_experimental_support=${reddit:-}" >> "$GITHUB_OUTPUT"
 
         echo ""
-        echo "  YouTube: $youtube"
-        echo "  YouTube Music: $youtube_music"
-        echo "  Reddit: $reddit"
+        echo "  YouTube: ${youtube:-not found}"
+        echo "  YouTube Music: ${youtube_music:-not found}"
+        echo "  Reddit: ${reddit:-not found}"
